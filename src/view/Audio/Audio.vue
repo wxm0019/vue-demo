@@ -1,5 +1,7 @@
 <template>
-    <div class="home">国内新闻</div>
+    <div class="home">audio
+        
+    </div>
 </template>
 <style lang="scss" scoped>
 

@@ -1,5 +1,8 @@
 <template>
-    <div class="home">国外新闻</div>
+    <div class="home">brodcast
+       
+        
+    </div>
 </template>
 <style lang="scss" scoped>
 

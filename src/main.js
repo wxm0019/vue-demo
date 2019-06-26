@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-
+import "./style/main.scss"
 new Vue({
   router,//为了方便Vue的组件通过this.$route或this.$router去访问和路由相关的API
   store,
