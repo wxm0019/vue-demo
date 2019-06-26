@@ -1,6 +1,6 @@
 <template>
-    <div class="home">home
-       
+    <div class="home">
+       <Tabbar></Tabbar>
         
     </div>
 </template>
@@ -8,8 +8,11 @@
 
 </style>
 <script>
+import Tabbar from "../../components/Tabbar"
 export default {
-    
+ components:{
+   Tabbar
+ }
 }
 </script>
 

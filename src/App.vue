@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <Tabbar></Tabbar>
+    <Appheader></Appheader>
   </div>
 </template>
 
@@ -11,11 +11,12 @@
   
 </style>
 <script>
-//引入Tabbar组件
-import Tabbar from "./components/Tabbar"
+//引入头部区域
+import Appheader from "@/components/Header"
+
 export default {
  components:{
-   Tabbar
+   Appheader
  }
 }
 </script>

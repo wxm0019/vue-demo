@@ -40,7 +40,7 @@ import item from "./item"
 export default {
     data(){
         return {
-            selected:"home"
+            selected:this.$route.name
         }
     },
     components:{

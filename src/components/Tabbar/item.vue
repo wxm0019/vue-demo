@@ -33,7 +33,7 @@ export default {
     },
     methods:{
         change(){
-            this.changeselected(this.mark)
+            // this.changeselected(this.mark)
             this.$router.push("/"+this.mark)//编程式导航
         }
     }
